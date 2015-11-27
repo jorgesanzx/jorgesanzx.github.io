@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+// Core variables and mixins
+@import "variables";
+
+// Reset and dependencies
+@import "normalize";
+
+// Core CSS
+@import "reboot";
+@import "type";
+
+// Utility classes
+@import "utilities";
+
+// Custom CSS
+@import "custom";

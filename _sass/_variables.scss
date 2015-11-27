@@ -1,0 +1,80 @@
+// Variables
+//
+// Copy settings from this file into the provided `_custom.scss` to override
+// the Bootstrap defaults without modifying key, versioned files.
+
+
+// Table of Contents
+//
+// Colors
+// Options
+// Spacing
+// Body
+// Links
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Fonts
+// Components
+
+// General variable structure
+//
+// Variable format should follow the `$component-modifier-state-property` order.
+
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark:                 #333 !default;
+
+$brand-primary:             #0275d8 !default;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+
+$spacer:                     1rem !default;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                    #fff !default;
+$body-color:                 $gray-dark !default;
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                 $brand-primary !default;
+$link-decoration:            none;
+$link-hover-color:           darken($link-color, 15%);
+$link-hover-decoration:      none;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-base:           "Source Sans Pro", "Helvetica Neue", Helvetica, "Segoe UI", Calibri, sans-serif;
+
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root:             16px;
+
+$font-size-base:             1.2rem;
+
+$font-size-h1:               2.6rem;
+
+$line-height:                1.5;
+
+$headings-margin-bottom:     $spacer;
+$headings-font-family:       inherit;
+$headings-font-weight:       300;
+$headings-line-height:       1.1;
+$headings-color:             inherit;
